@@ -1,0 +1,32 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stb_image_aug.c
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(177,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(251,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(303,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(1557,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(2394,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(2709,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(2995,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(3209,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(3548,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stb_image_aug.c(3644,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stbi_DDS_aug_c.h(362,19): warning C4018: '>': signed/unsigned mismatch
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stbi_DDS_aug_c.h(366,19): warning C4018: '>': signed/unsigned mismatch
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stbi_DDS_aug_c.h(390,19): warning C4018: '<': signed/unsigned mismatch
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stbi_DDS_aug_c.h(427,19): warning C4018: '<': signed/unsigned mismatch
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\stbi_DDS_aug_c.h(498,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SOIL.c
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\SOIL.c(1719,36): warning C4018: '<=': signed/unsigned mismatch
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\SOIL.c(1729,19): warning C4018: '<': signed/unsigned mismatch
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\SOIL.c(1867,52): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\SOIL.c(1841,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  image_helper.c
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\image_helper.c(325,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\image_helper.c(366,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\image_helper.c(373,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\image_helper.c(415,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\image_helper.c(422,62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  image_DXT.c
+C:\Uni\MSc Redo\SOIL\Simple OpenGL Image Library\src\image_DXT.c(92,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  SOIL.vcxproj -> C:\Uni\MSc Redo\SOIL\SLN\x64\Debug\SOIL.lib

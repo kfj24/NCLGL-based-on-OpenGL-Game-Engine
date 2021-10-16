@@ -1,0 +1,2 @@
+C:\Uni\MSc Redo\SOIL\SLN\x64\Debug\SOIL.lib
+C:\Uni\MSc Redo\SOIL\SLN\x64\Debug\SOIL.pdb

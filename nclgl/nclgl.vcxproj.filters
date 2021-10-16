@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTimer.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshAnimation.cpp" />
+    <ClCompile Include="MeshMaterial.cpp" />
+    <ClCompile Include="OGLRenderer.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="..\Third Party\glad\glad.c">
+      <Filter>GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeShader.cpp" />
+    <ClCompile Include="Matrix2.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Windows and Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Windows and Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Windows and Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshAnimation.h" />
+    <ClInclude Include="MeshMaterial.h" />
+    <ClInclude Include="OGLRenderer.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ComputeShader.h" />
+    <ClInclude Include="Matrix2.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Windows and Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GLAD">
+      <UniqueIdentifier>{b2f2e4a3-f5c5-4809-836e-819a6234e480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{fa6a3a39-359c-4394-b797-c66f4ed7c29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows and Input">
+      <UniqueIdentifier>{4a13117a-c481-4385-bd9e-1acd65146a21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
