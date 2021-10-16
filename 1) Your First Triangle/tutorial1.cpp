@@ -2,7 +2,7 @@
 #include "Renderer.h"
 
 int main()	{
-	Window w("My First OpenGL Triangle!", 1280, 720, false);
+	Window w("My First OpenGL Triangle!", 800, 600, false);
 
 	if(!w.HasInitialised()) {
 		return -1;
