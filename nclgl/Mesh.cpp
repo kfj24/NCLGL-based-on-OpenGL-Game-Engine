@@ -418,17 +418,25 @@ bool Mesh::GetSubMesh(const string& name, const SubMesh* s) const {
 Mesh* Mesh::GenerateTriangle()
 {
 	Mesh* m = new Mesh();
-	m->numVertices = 3; //初始化一个三个顶点的数组 numVertices是定点的个数
+	m->numVertices = 6; //初始化一个三个顶点的数组 numVertices是定点的个数
 	m->vertices = new Vector3[m->numVertices]; //new初始化vertices顶点数组
 	//设置定点参数
 	m->vertices[0] = Vector3(0.0f, 0.5f, 0.0f);
 	m->vertices[1] = Vector3(0.5f, -0.5f, 0.0f);
 	m->vertices[2] = Vector3(-0.5f, -0.5f, 0.0f);
+
+	m->vertices[3] = Vector3(1.0f, 0.5f, 0.0f);
+	m->vertices[4] = Vector3(0.0f, 0.5f, 0.0f);
+	m->vertices[5] = Vector3(0.5f, -0.5f, 0.0f);
 	//设置颜色参数 RGBA 透明度为1.0f
 	m->colours = new Vector4[m->numVertices];
 	m->colours[0] = Vector4(1.0f, 0.0f, 0.0f, 1.0f);//红
 	m->colours[1] = Vector4(0.0f, 1.0f, 0.0f, 1.0f);//绿
 	m->colours[2] = Vector4(0.0f, 0.0f, 1.0f, 1.0f);//蓝
+
+	m->colours[3] = Vector4(1.0f, 0.0f, 0.0f, 1.0f);
+	m->colours[4] = Vector4(1.0f, 0.0f, 0.0f, 1.0f);//红
+	m->colours[5] = Vector4(0.0f, 1.0f, 0.0f, 1.0f);//绿
 	m->BufferData(); //将数据复制进入VBO
 	return m;
 
